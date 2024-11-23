@@ -151,14 +151,12 @@ void blinkMorseCode(String morseCode) {
 |     4     |    ....-   |
 |     5     |    .....   |
 |     6     |    -....   |
-|     7	    |    --...   |
+|     7	   |    --...   |
 |     8     |    ---..   |
 |     9     |    ----.   |
 
 ## Example
 Input (via Serial Monitor):
-
-## Copy code
 ```cpp
 HELLO WORLD
 ```
@@ -169,5 +167,5 @@ HELLO WORLD
 ```
 
 ## Notes
-Special characters and punctuation are not supported in this version.
-Ensure the input is kept short for easier testing.
+- Special characters and punctuation are not supported in this version.
+- Ensure the input is kept short for easier testing.
