@@ -8,18 +8,18 @@ This project converts text entered through the Serial Monitor of the Arduino IDE
 - Implements appropriate delays for dots, dashes, and spaces for readability.
 
 ## Components Required
-- **Arduino Uno R3**
-- USB Cable for programming and power
-- Arduino IDE for coding and accessing the Serial Monitor
+1. **Arduino Uno R3**
+2. USB Cable for programming and power
+3. Arduino IDE for coding and accessing the Serial Monitor
 
 ## How It Works
 1. Enter a text string (letters and numbers) in the Serial Monitor.
 2. The Arduino processes each character in the string:
-- **Dot (.)**: A short blink (500 ms ON, 50 ms OFF).
-- **Dash (-)**: A long blink (1000 ms ON, 50 ms OFF).
-- **Space between symbols in a character:** 50 ms OFF.
-- **Space between characters:** 50 ms OFF.
-- **Space between words:** 1500 ms OFF.
+   - **Dot (.)**: A short blink (500 ms ON, 50 ms OFF).
+   - **Dash (-)**: A long blink (1000 ms ON, 50 ms OFF).
+   - **Space between symbols in a character:** 50 ms OFF.
+   - **Space between characters:** 50 ms OFF.
+   - **Space between words:** 1500 ms OFF.
 3. The onboard LED blinks to represent the Morse code sequence.
 
 ## Code
