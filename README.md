@@ -102,18 +102,18 @@ void blinkMorseCode(String morseCode) {
 
 ## Setup Instructions
 1. Connect the Arduino Uno:
-- Plug the Arduino Uno R3 into your computer using a USB cable.
+   - Plug the Arduino Uno R3 into your computer using a USB cable.
 2. Install the Arduino IDE:
-- Download and install the Arduino IDE.
+   - Download and install the Arduino IDE.
 3. Upload the Code:
-- Copy the above code into the Arduino IDE.
-- Select the correct Board (Arduino Uno) and Port under the Tools menu.
-- Click Upload to flash the code to the Arduino.
+   - Copy the above code into the Arduino IDE.
+   - Select the correct Board (Arduino Uno) and Port under the Tools menu.
+   - Click Upload to flash the code to the Arduino.
 4. Open the Serial Monitor:
-- Set the baud rate to 9600.
-- Type a text string and press Enter.
+   - Set the baud rate to 9600.
+   - Type a text string and press Enter.
 5. Observe the LED:
-- The onboard LED will blink the Morse code corresponding to your input.
+   - The onboard LED will blink the Morse code corresponding to your input.
 
 ## Morse Code Reference
 | Character |	Morse Code |
